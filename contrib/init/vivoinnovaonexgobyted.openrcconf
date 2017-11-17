@@ -1,0 +1,33 @@
+# /etc/conf.d/vivoinnovaonexgobyted: config file for /etc/init.d/vivoinnovaonexgobyted
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/vivoinnovaonexgobyte/vivoinnovaonexgobyte.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vivoinnovaonexgobyted"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vivoinnovaonexgobyted.pid"
+
+# Where to write vivoinnovaonexgobyted data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vivoinnovaonexgobyted"
+
+# User and group to own vivoinnovaonexgobyted process
+#BITCOIND_USER="vivoinnovaonexgobyte"
+#BITCOIND_GROUP="vivoinnovaonexgobyte"
+
+# Path to vivoinnovaonexgobyted executable
+#BITCOIND_BIN="/usr/bin/vivoinnovaonexgobyted"
+
+# Nice value to run vivoinnovaonexgobyted under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

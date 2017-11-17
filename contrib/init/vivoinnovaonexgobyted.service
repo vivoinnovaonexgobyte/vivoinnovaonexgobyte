@@ -1,0 +1,22 @@
+[Unit]
+Description=Vivoinnovaonexgobyte's distributed currency daemon
+After=network.target
+
+[Service]
+User=vivoinnovaonexgobyte
+Group=vivoinnovaonexgobyte
+
+Type=forking
+PIDFile=/var/lib/vivoinnovaonexgobyted/vivoinnovaonexgobyted.pid
+ExecStart=/usr/bin/vivoinnovaonexgobyted -daemon -pid=/var/lib/vivoinnovaonexgobyted/vivoinnovaonexgobyted.pid \
+-conf=/etc/vivoinnovaonexgobyte/vivoinnovaonexgobyte.conf -datadir=/var/lib/vivoinnovaonexgobyted -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+usr/local/bin/vivoinnovaonexgobyte-qt usr/bin
+share/pixmaps/vivoinnovaonexgobyte32.xpm usr/share/pixmaps
+share/pixmaps/vivoinnovaonexgobyte16.xpm usr/share/pixmaps
+share/pixmaps/vivoinnovaonexgobyte128.png usr/share/pixmaps
+debian/vivoinnovaonexgobyte-qt.desktop usr/share/applications
+debian/vivoinnovaonexgobyte-qt.protocol usr/share/kde4/services/

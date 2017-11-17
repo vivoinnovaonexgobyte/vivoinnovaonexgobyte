@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[vivoinnovaonexgobyte.qt-translation-012x]
+file_filter = src/qt/locale/vivoinnovaonexgobyte_<lang>.ts
+source_file = src/qt/locale/vivoinnovaonexgobyte_en.ts
+source_lang = en

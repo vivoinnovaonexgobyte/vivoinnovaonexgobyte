@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Vivoinnovaonexgobyte
+Comment=Vivoinnovaonexgobyte P2P Cryptocurrency
+Comment[fr]=Vivoinnovaonexgobyte, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Vivoinnovaonexgobyte, eşten eşe kriptografik sanal para birimi
+Exec=vivoinnovaonexgobyte-qt %u
+Terminal=false
+Type=Application
+Icon=vivoinnovaonexgobyte128
+MimeType=x-scheme-handler/vivoinnovaonexgobyte;
+Categories=Office;Finance;
