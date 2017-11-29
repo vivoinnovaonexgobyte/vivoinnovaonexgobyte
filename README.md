@@ -1,4 +1,4 @@
-Vivoinnovaonexgobyte Core staging tree 0.12.1-gw1
+Vivoinnovaonexgobyte Core staging tree 0.12.1.1
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte.svg?branch=master)](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte) `v0.12.0.x:` [![Build Status](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte.svg?branch=v0.12.0.x)](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte.svg?branch=v0.12.1.x)](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte/branches)
