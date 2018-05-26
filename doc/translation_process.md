@@ -45,7 +45,6 @@ To assist in updating translations, we have created a script to help.
    `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(vivoinnovaonexgobyte_\(.*\)\).ts/  qt\/locale\/\1.ts \\/'`
 4. `git add` new translations from `src/qt/locale/`
 
-**Do not directly download translations** one by one from the Transifex website, as we do a few post-processing steps before committing the translations.
 
 ### Handling Plurals (in source files)
 When new plurals are added to the source file, it's important to do the following steps:
