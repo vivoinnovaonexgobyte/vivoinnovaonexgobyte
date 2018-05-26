@@ -1,4 +1,4 @@
-Vivoinnovaonexgobyte Core staging tree 0.12.1
+Vivoinnovaonexgobyte Core staging tree 0.12.1.1
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte.svg?branch=master)](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte) `v0.12.0.x:` [![Build Status](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte.svg?branch=v0.12.0.x)](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte.svg?branch=v0.12.1.x)](https://travis-ci.org/vivoinnovaonexgobytepay/vivoinnovaonexgobyte/branches)
@@ -61,17 +61,3 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[Vivoinnovaonexgobyte Core's Transifex page](https://www.transifex.com/projects/p/vivoinnovaonexgobyte/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-Translators should also follow the [forum](https://www.vivoinnovaonexgobyte.org/forum/topic/vivoinnovaonexgobyte-worldwide-collaboration.88/).
