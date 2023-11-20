@@ -5,6 +5,7 @@ Vivoinnovaonexgobyte Core staging tree 0.12.1.1
 
 https://www.vivoinnovaonexgobyte.org
 
+THIS FORK IS NOW ARCHIVED
 
 What is Vivoinnovaonexgobyte?
 ----------------
